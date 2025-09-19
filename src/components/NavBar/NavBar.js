@@ -2,7 +2,7 @@
 import styles from './NavBar.module.scss';
 import 'font-awesome/css/font-awesome.min.css';
 import Container from '../Container/Container';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
   <nav className={styles['nav-bar']}>
