@@ -1,0 +1,56 @@
+@import '../../styles/settings.scss';
+
+.nav-bar {
+    background-color: darken($color-dark, 3%);
+
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .home-icon-container {
+
+        padding: 20px;
+
+        i {
+            font-size: 24px;
+
+            &:hover {
+                color: darken($color-light, 20%);
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            .linkActive {
+                color: $color-warning;
+            }
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            list-style: none;
+            margin: 0 20px;
+            padding: 0;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-light;
+        font-size: $base-size;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: $transition;
+
+        &:hover {
+            color: darken($color-light, 20%);
+        }
+    }
+}
