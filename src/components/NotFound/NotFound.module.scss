@@ -1,0 +1,28 @@
+@import '../../styles/settings.scss';
+
+.NotFound {
+  text-align: center;
+  padding: 2rem;
+  background-color: $color-dark;
+
+  .errorCode {
+    font-size: 10rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .message {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .homeLink {
+    font-size: 1.2rem;
+    color: $color-success;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
