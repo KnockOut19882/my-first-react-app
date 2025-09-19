@@ -1,13 +1,15 @@
 @import '../../styles/settings.scss';
 
-.favorite {
-  background-color: darken($color-light, 5%);
+.favorites {
+  background-color: $color-dark;
   padding: 20px;
   border-radius: 5px;
+  
 
   h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   p {
