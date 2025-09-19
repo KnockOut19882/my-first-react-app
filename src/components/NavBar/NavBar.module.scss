@@ -47,7 +47,6 @@
         font-size: $base-size;
         font-weight: 700;
         text-transform: uppercase;
-        transition: $transition;
 
         &:hover {
             color: darken($color-light, 20%);
