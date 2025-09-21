@@ -1,6 +1,16 @@
 import shortid from 'shortid';
 
+//selectors
+export const getAllCards = state => state.cards;
+export const getCardById = ({ cards }, cardId) => cards.find(card => card.id === cardId);
 
+//actions
+const createActionName = actionName => `app/cards/${actionName}`;
+const ADD_CARD = createActionName('ADD_CARD');
+
+//action creators
+export const addCard = payload => ({ type: ADD_CARD, payload });
+export const toggleCardFavorite = id => ({ type: 'TOGGLE_CARD_FAVORITE', payload: id });
 const cardsReducer = (statePart = [], action) => {
     switch(action.type) {
       case 'ADD_CARD':
