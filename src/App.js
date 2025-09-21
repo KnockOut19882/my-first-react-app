@@ -19,6 +19,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} /> {/* 404 route */}
           <Route path="*" element={<Navigate to="/" />} /> {/* przekierowanie na Home */}
           <Route path="/list/:listId" element={<List />} />
+          <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </Container>
     </main>

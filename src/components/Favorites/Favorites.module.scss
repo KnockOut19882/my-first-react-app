@@ -16,4 +16,17 @@
     font-size: 16px;
     line-height: 1.5;
   }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      background-color: $color-light;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 3px;
+      color: $color-dark;
+    }
+  }
 }

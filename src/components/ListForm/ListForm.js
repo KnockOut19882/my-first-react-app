@@ -4,7 +4,6 @@ import TextInput from "../TextInput/TextInput";
 import { useState } from "react";
 import styles from "./ListForm.module.scss";
 import { useDispatch } from "react-redux";
-import { useParams } from "react-router-dom";
 
 const ListForm = () => {
     const [value, setValue] = useState('');
