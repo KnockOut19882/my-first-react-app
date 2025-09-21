@@ -8,8 +8,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <SearchForm />
-      <List />
+      <Lists />
     </>
   );
 };

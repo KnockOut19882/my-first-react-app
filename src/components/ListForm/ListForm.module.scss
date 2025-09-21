@@ -1,0 +1,16 @@
+.listform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ // padding: 15px;
+
+  label {
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  input {
+    margin-left: 10px;
+  }
+}
