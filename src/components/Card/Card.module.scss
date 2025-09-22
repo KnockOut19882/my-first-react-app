@@ -24,11 +24,11 @@
   cursor: pointer;
   padding: 4px;
   font-size: 1.2em;
-  color: $color-gold;
+  color: $color-dark;
   transition: color 0.2s;
 }
 
 .favoriteBtn:hover,
 .deleteBtn:hover {
-  
+   cursor: pointer;
 }
