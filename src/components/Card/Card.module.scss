@@ -11,3 +11,24 @@
     justify-content: space-between;
     font-weight: bold;
 }
+
+.actions {
+  display: flex;
+  gap: 8px; // odstęp między przyciskami
+}
+
+.favoriteBtn,
+.deleteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 1.2em;
+  color: $color-gold;
+  transition: color 0.2s;
+}
+
+.favoriteBtn:hover,
+.deleteBtn:hover {
+  
+}
